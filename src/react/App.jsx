@@ -1,6 +1,6 @@
 var React = require("react");
 var ReactDOM = require("react-dom");
 
-var List = require("./components/List.jsx");
+var AutoComplete = require("./components/AutoComplete.jsx");
 
-ReactDOM.render(<List />, document.getElementById("ingredients"));
+ReactDOM.render(<AutoComplete />, document.getElementById("input"));
